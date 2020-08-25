@@ -1,0 +1,14 @@
+<h2>Este es el componente productos</h2>
+
+<p>{{variableDePrueba}}</p>
+
+
+<input type="text" [value]="nombrePorDefecto">
+
+
+
+<button (click)="enviarFormulario()">Enviar</button>
+<br>
+
+<input type="text" #email>
+<button class="bnt btn-primary" (click)="obtenerElementoDelDom(email.value)">Enviar email</button>
